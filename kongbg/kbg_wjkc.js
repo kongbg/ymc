@@ -1,5 +1,4 @@
-const name = "网际快车签到";
-const $ = new Env(name);
+const $ = new Env("网际快车签到");
 
 let userCookie = process.env.WJ_KC_COOKIE;
 let userCount = 0;
